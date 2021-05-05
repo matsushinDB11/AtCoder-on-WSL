@@ -4,6 +4,7 @@
 		{
 			"type": "cppbuild",
 			"label": "g++ build active file",
+			// コンパイラへのパス
 			"command": "/usr/bin/g++",
 			"args": [
 				"-std=c++17",

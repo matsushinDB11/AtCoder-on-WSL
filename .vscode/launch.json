@@ -27,6 +27,7 @@
         }
       ],
       "preLaunchTask": "g++ build active file",
+      // デバッガーへのパス
       "miDebuggerPath": "/usr/bin/gdb",
     }
   ]
