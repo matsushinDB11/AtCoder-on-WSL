@@ -4,14 +4,16 @@
   // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-    
-
     {
       "name": "g++ build and debug active file",
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/out/${fileBasenameNoExtension}",
-      "args": [],
+      "args": [
+        // 入力のリダイレクト
+        "<",
+        "${fileDirname}/input.txt"
+      ],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
@@ -25,7 +27,7 @@
         }
       ],
       "preLaunchTask": "g++ build active file",
-      "miDebuggerPath": "/usr/bin/gdb"
+      "miDebuggerPath": "/usr/bin/gdb",
     }
   ]
 }
