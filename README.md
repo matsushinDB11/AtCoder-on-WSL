@@ -2,8 +2,8 @@
 
 WSL上で競技プログラミング用環境構築  
 ## Requirement
-wsl Ubuntu20.04
-gcc 9.3.0
+wsl Ubuntu20.04  
+gcc 9.3.0  
 GNU gbd 9.2
 
 ## Note
