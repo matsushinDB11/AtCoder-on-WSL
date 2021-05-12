@@ -1,8 +1,0 @@
-{
-  "files.associations": {
-    "*.html.erb": "html",
-    "*.pl": "prolog",
-    "iostream": "cpp"
-  },
-  "files.autoSave": "afterDelay"
-}
