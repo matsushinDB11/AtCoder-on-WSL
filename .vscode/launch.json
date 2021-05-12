@@ -11,8 +11,7 @@
       "program": "${fileDirname}/${fileBasenameNoExtension}.out",
       "args": [
         // 入力のリダイレクト
-        "<",
-        "${fileDirname}/input.txt"
+        "<${fileDirname}/input.txt"
       ],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
