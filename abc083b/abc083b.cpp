@@ -1,10 +1,21 @@
 #include <iostream>
 using namespace std;
 
-// 各桁の和を返す
+// 各桁の和を返す 再帰関数
+// int getdigitsum(int n) {
+//   if (n < 10) return n;
+//   return getdigitsum(n/10) + n % 10;
+// }
+
+// 各桁の和を返す loop
 int getdigitsum(int n) {
-  if (n < 10) return n;
-  return getdigitsum(n/10) + n % 10;
+  int sum = 0;
+  while (n > 0)
+  {
+    sum += n % 10;
+    n /= 10;
+  }
+  return sum;
 }
 
 int main() {
